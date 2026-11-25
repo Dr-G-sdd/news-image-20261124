@@ -6,6 +6,12 @@
 
 One image summing up the world news of Tuesday 24 November 2026 — Dell's record AI quarter, Nvidia's chief apologising a day after his return, Huawei convicted, and more — drawn as a newspaper front page.
 
+## What's inside
+
+- `main.ts` — the entry program: validates `entry.png` (PNG magic bytes, at most 1 MiB, at most 1024x1024) and copies it to the output directory.
+- `entry.png` — the newspaper front page image (1024x1024, 734165 bytes).
+- `LICENSE` — MIT license.
+
 ## Run it
 
 ```sh
